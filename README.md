@@ -5,9 +5,7 @@ Turn switch "SAFE SHUTDOWN" to ON.
 
 --------------------
 
-Setup for RetroPie direct reboot:
-
-DISCLAIMER: I'm not responsible for any data loss, although i tested it on my setup and it worked properly.
+Setup for RetroPie with direct reboot:
 
 -------------------Multi Switch Shutdown-----------------
 Updated: 04/09/2019
@@ -55,3 +53,6 @@ Setup for Raspbian:
 wget -O - "https://raw.githubusercontent.com/DavidOliM/retroflag-picase/Raspbian/install_raspbian.sh" | bash
 
 4. Wait til it finishes, it will reboot.
+
+
+DISCLAIMER: I'm not responsible for any data loss, although i tested it on my setup and it worked properly.
