@@ -32,7 +32,7 @@ sudo apt-get install -y python3-gpiozero
 cd /opt/
 sudo mkdir RetroFlag
 cd /opt/RetroFlag
-script=SafeShutdown.py
+script=rpbian_safeshutdown.py
 
 if [ -e $script ];
 	then
@@ -46,11 +46,11 @@ fi
 cd /etc/
 RC=rc.local
 
-if grep -q "sudo python3 \/opt\/RetroFlag\/SafeShutdown.py \&" "$RC";
+if grep -q "sudo python3 \/opt\/RetroFlag\/rpbian_safeshutdown.py \&" "$RC";
 	then
 		echo "File /etc/rc.local already configured. Doing nothing."
 	else
-		sed -i -e "s/^exit 0/sudo python3 \/opt\/RetroFlag\/SafeShutdown.py \&\n&/g" "$RC"
+		sed -i -e "s/^exit 0/sudo python3 \/opt\/RetroFlag\/rpbian_safeshutdown.py \&\n&/g" "$RC"
 		echo "File /etc/rc.local configured."
 fi
 #-----------------------------------------------------------
