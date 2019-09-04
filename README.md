@@ -64,4 +64,15 @@ Example for RecalBox:
 4. User: root Password: recalboxroot
 5. In the terminal, type the one-line command below(Case sensitive):
 
-wget -O - "https://raw.githubusercontent.com/RetroFlag/retroflag-picase/master/recalbox_install.sh" | bash
+wget -O - "https://raw.githubusercontent.com/DavidOliM/retroflag-picase/master/recalbox_install.sh" | bash
+
+---------------------
+
+Example For Raspbian:
+1. Make sure you're connected to the internet.
+2. Either have a connected keyboard or SSH client open in another computer.
+3. In Terminal, type or copy-paste this line:
+
+wget -O - "https://raw.githubusercontent.com/DavidOliM/retroflag-picase/Raspbian/raspbian_install.sh" | bash
+
+4. Wait til it finishes, it will reboot.
