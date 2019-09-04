@@ -57,7 +57,7 @@ wget -O - "https://raw.githubusercontent.com/RetroFlag/retroflag-picase/master/i
 
 --------------------
 
-Example for RecalBox:
+Setup for RecalBox:
 1. Make sure internet connected.
 2. Make sure keyboard connected.
 3. Press F4 first. And then press ALT-F2 enter termial.
@@ -68,10 +68,11 @@ wget -O - "https://raw.githubusercontent.com/DavidOliM/retroflag-picase/master/r
 
 ---------------------
 
-Example For Raspbian:
+Setup for Raspbian:
 1. Make sure you're connected to the internet.
 2. Either have a connected keyboard or SSH client open in another computer.
-3. In Terminal, type or copy-paste this line:
+3. Open a terminal as user "root", you need to have set a root password before doing this.
+4. On a root terminal, type or copy-paste this line:
 
 wget -O - "https://raw.githubusercontent.com/DavidOliM/retroflag-picase/Raspbian/install_raspbian.sh" | bash
 
