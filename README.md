@@ -7,8 +7,10 @@ Turn switch "SAFE SHUTDOWN" to ON.
 
 Setup for RetroPie direct reboot:
 
+DISCLAIMER: I'm not responsible for any data loss, although i tested it on my setup and it worked properly.
+
 -------------------Multi Switch Shutdown-----------------
-Updated: 2019.2.14
+Updated: 04/09/2019
 
 Multi Switch Shutdown with advanced shutdown features for more natural behaviour:
 
