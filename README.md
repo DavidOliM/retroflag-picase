@@ -73,6 +73,6 @@ Example For Raspbian:
 2. Either have a connected keyboard or SSH client open in another computer.
 3. In Terminal, type or copy-paste this line:
 
-wget -O - "https://raw.githubusercontent.com/DavidOliM/retroflag-picase/Raspbian/raspbian_install.sh" | bash
+wget -O - "https://raw.githubusercontent.com/DavidOliM/retroflag-picase/Raspbian/install_raspbian.sh" | bash
 
 4. Wait til it finishes, it will reboot.
