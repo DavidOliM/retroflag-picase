@@ -55,4 +55,4 @@ wget -O - "https://raw.githubusercontent.com/DavidOliM/retroflag-picase/Raspbian
 4. Wait til it finishes, it will reboot.
 
 
-DISCLAIMER: I'm not responsible for any data loss, although i tested it on my setup and it worked properly.
+#DISCLAIMER: I'm not responsible for any data loss, although i tested it on my setup and it worked properly.
